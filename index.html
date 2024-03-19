@@ -4,13 +4,27 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Juego de Minas</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Hola mundo!</h1>
-        <script src="./script.js" async defer></script>
+        <div class="game-container">
+            <canvas id="game"></canvas>
+
+            <div class="btns">
+                <button id="up">Arriba</button>
+                <button id="left">Izquierda</button>
+                <button id="right">Derecha</button>
+                <button id="down">Abajo</button>
+            </div>
+            <!--To do-->
+            <div class="messages">
+
+            </div>
+        </div>
+        <script src="./maps.js" async defer></script>
+        <script src="./game.js" async defer></script>
     </body>
 </html>
